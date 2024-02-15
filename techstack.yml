@@ -1,0 +1,84 @@
+repo_name: gangadharure/simple-docker-deployment-kubernetes
+report_id: cc21f53ed51e6d2a157aa2f7cd6b0b57
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T15:18:14+00:00'
+requested_by: asecurityguru
+provider: github
+branch: main
+detected_tools_count: 6
+tools:
+- name: Java EE
+  description: The standard in community-driven enterprise software
+  website_url: http://www.oracle.com/technetwork/java/javaee/overview/index.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4522/652rxwyK_400x400.png
+  detection_source_url: https://github.com/gangadharure/simple-docker-deployment-kubernetes/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: asecurityguru
+  last_updated_on: 2022-05-18 06:25:32.000000000 Z
+- name: Apache Maven
+  description: Apache build manager for Java projects.
+  website_url: http://maven.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png
+  detection_source_url: https://github.com/gangadharure/simple-docker-deployment-kubernetes/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: asecurityguru
+  last_updated_on: 2022-05-22 13:04:03.000000000 Z
+- name: Apache Tomcat
+  description: An open source software implementation of the Java Servlet and JavaServer
+    Pages technologies
+  website_url: http://tomcat.apache.org/
+  version: 7.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1187/tomcat.png
+  detection_source_url: https://github.com/gangadharure/simple-docker-deployment-kubernetes/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: asecurityguru
+  last_updated_on: 2022-05-22 13:04:03.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/gangadharure/simple-docker-deployment-kubernetes
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/simple-docker-deployment-kubernetes
+  detection_source: Repo Metadata
+- name: javax:javaee-web-api
+  description: Java
+  version: '7.0'
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/simple-docker-deployment-kubernetes/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: asecurityguru
+  last_updated_on: 2022-05-18 06:25:32.000000000 Z
